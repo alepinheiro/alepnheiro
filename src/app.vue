@@ -2,6 +2,17 @@
 import { InitApp } from '~/utils/initApp'
 InitApp()
 const locale = useState<string>('locale.i18n')
+useHead({
+  title: 'Alessandro Pinheiro - Desenvolvedor Web',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    { name: 'description', content: 'Desenvolvendo soluções web para se negócio' },
+  ],
+  bodyAttrs: {
+    class: 'test',
+  },
+})
 </script>
 
 <template>
