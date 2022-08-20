@@ -27,6 +27,7 @@
     "@iconify-json/ic": "1.1.8",
     "@iconify-json/ph": "1.1.2",
     "@iconify-json/twemoji": "1.1.5",
+    "@iconify/vue": "^3.2.1",
     "@intlify/nuxt3": "0.2.3",
     "@nuxtjs/color-mode": "3.1.4",
     "@nuxtjs/tailwindcss": "5.3.1",
@@ -41,6 +42,7 @@
     "prettier-plugin-tailwindcss": "0.1.13",
     "sass": "1.54.3",
     "sass-loader": "13.0.2",
+    "swiper": "^8.3.2",
     "typescript": "4.7.4"
   }
 }

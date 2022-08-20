@@ -2,7 +2,7 @@ import { defineNuxtConfig } from 'nuxt'
 import presetIcons from '@unocss/preset-icons'
 
 export default defineNuxtConfig({
-  srcDir: 'src',
+  srcDir: './src',
   modules: [
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
@@ -29,16 +29,16 @@ export default defineNuxtConfig({
         },
       }),
     ],
-    safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-turkey'],
+    safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-brazil'],
   },
 
   // localization - i18n config
   intlify: {
     localeDir: 'locales',
     vueI18n: {
-      locale: 'en-US',
-      fallbackLocale: 'en-US',
-      availableLocales: ['en-US', 'tr-TR'],
+      locale: 'pt-BR',
+      fallbackLocale: 'pt-BR',
+      availableLocales: ['en-US', 'pt-BR'],
       sync: true,
     },
   },

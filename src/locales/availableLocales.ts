@@ -13,8 +13,8 @@ export const availableLocales: ILocales = {
     flag: 'i-twemoji-flag-us-outlying-islands',
   },
   tr: {
-    name: 'Turkce',
-    iso: 'tr-TR',
-    flag: 'i-twemoji-flag-turkey',
+    name: 'Portugês Brasileiro',
+    iso: 'pt-BR',
+    flag: 'i-twemoji-flag-brazil',
   },
 }

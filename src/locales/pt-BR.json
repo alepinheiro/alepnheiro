@@ -1,0 +1,25 @@
+{
+  "hello": "hello",
+  "follow": "Follow Me",
+  "modal": "Modal",
+  "name": "Alessandro Pinheiro",
+  "location": "Florianópolis/SC",
+  "back": "Voltar",
+  "menu": {
+    "a": "Quem sou eu?",
+    "b": "Experiência Profissional",
+    "c": "Habilidades e Conhecimentos",
+    "d": "Hobbies",
+    "e": "Contato"
+  },
+  "whoami":{
+    "description": {
+      "l1": "Se definir talvez seja uma das tarefas mais difíceis para qualquer ser humano, um ser cheio de emoções, razões, medos e inseguranças. Criado em uma família  tradicional brasileira trago comigo os bons valores da paz, justiça e liberdade.",
+      "l2": " Sempre à procura de conhecimento e constante evolução percebi que para me tornar alguém melhor pequenas atitudes devem ser tomadas todos os dias de forma constante, e talvez esse seja o segredo do sucesso. Sou uma pessoa que almeja o topo, engajada com o propósito de quem está ao meu lado.",
+      "l3": " Acredito que o acesso ao conhecimento e educação podem mudar o mundo. Tenho alguns defeitos e reconheço isso, pois não  sou perfeito. Teimosia, autoritarismo e a ansiedade são traços da minha personalidade que busco melhorar constantemente."
+    }
+  },
+  "contact":{
+    "callToAction": "Entre em contato comigo pelo WhatsApp"
+  }
+}
