@@ -17,6 +17,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['@headlessui/vue'],
   },
+
   unocss: {
     uno: false,
     preflight: false,

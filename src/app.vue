@@ -7,7 +7,7 @@ useHead({
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   charset: 'utf-8',
   meta: [
-    { name: 'description', content: 'Desenvolvendo soluções web para se negócio' },
+    { name: 'description', content: 'Desenvolvendo soluções web para seu negócio' },
   ],
   bodyAttrs: {
     class: 'test',
