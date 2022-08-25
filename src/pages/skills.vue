@@ -9,7 +9,7 @@ const { skills } = await $fetch('/api/skills')
 <template>
   <div class="flex flex-col">
     <div class="w-full h-96">
-      <img src="/whoami.jpeg" alt="" srcset="" class="object-cover w-full h-96">
+      <img src="/working-books.jpg" alt="" srcset="" class="object-cover w-full h-96">
     </div>
     <div class="flex flex-col mx-auto -mt-10 max-w-sm w-full rounded-lg global-text gap-4 mb-10">
       <div class="global-bg w-full rounded-lg p-4">

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import console from 'console'
 import { Icon } from '@iconify/vue'
 const { t } = useLang()
 const { subjects } = await $fetch('/api/subjects')
@@ -7,16 +6,11 @@ const selectedSubject = ref(0)
 const name = ref('')
 function sendToWhats() {
   if (name.value && selectedSubject.value > 0) {
-    // const subjectText = subjects.map((subject) => {
-    //   if (subject.id === selectedSubject.value)
-    //     return subject.text
-    // })
     let subjectText = ''
     for (let i = 0; i < subjects.length; i++) {
       if (subjects[i].id === selectedSubject.value)
         subjectText = subjects[i].text
     }
-
     const text = `Olá, me chamo ${name.value} e${subjectText}`
     window.open(encodeURI(`https://wa.me/5547999493409?text=${text}`))
   }
@@ -26,7 +20,7 @@ function sendToWhats() {
 <template>
   <div class="flex flex-col">
     <div class="w-full h-96">
-      <img src="/whoami.jpeg" alt="" srcset="" class="object-cover w-full h-96">
+      <img src="/contact.jpg" alt="" srcset="" class="object-cover w-full h-96">
     </div>
     <div class="mx-auto -mt-10 flex flex-col gap-4 mb-10">
       <div class="max-w-sm global-bg w-full rounded-lg p-4 global-text">

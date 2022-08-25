@@ -16,13 +16,13 @@ const isOpen = ref(false)
 <template>
   <div class="flex flex-col">
     <div class="w-full h-96">
-      <img src="/job.png" alt="" srcset="" class="object-cover w-full h-96 object-top">
+      <img src="/portifolio.webp" alt="" srcset="" class="object-cover w-full h-96 object-top">
     </div>
     <div class="-mt-10 mb-10">
       <div class="flex flex-col gap-4 mx-auto  max-w-sm  w-full ">
         <div class="rounded-lg p-4 global-text global-bg">
           <h1 class="font-bold text-2xl ">
-            {{ t("menu.b") }}
+            {{ t("menu.f") }}
           </h1>
         </div>
         <div class="rounded-lg p-4 global-text global-bg">

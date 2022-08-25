@@ -20,7 +20,7 @@ export default defineEventHandler(() => {
     }, {
       id: 2,
       logo: '#',
-      name: 'Angulo Cursos',
+      name: 'Ângulo Cursos',
       function: 'Professor',
       functions: [
         'Aulas de informática básica e avançada',
