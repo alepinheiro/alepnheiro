@@ -16,7 +16,7 @@ const { t } = useLang()
         <h1 class="font-bold text-2xl ">
           {{ t("name") }}
         </h1>
-        <h2>{{ t("location") }}</h2>
+        <h2>{{ t("occupation") }}</h2>
       </div>
 
       <div
