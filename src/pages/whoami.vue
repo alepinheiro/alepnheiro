@@ -12,7 +12,7 @@ const { t } = useLang()
         <h1 class="font-bold text-2xl ">
           {{ t("name") }}
         </h1>
-        <h2>{{ t("location") }}</h2>
+        <h2>{{ t("city") }}</h2>
       </div>
       <div class="max-w-sm global-bg w-full rounded-lg p-4  global-text">
         <div class="py-4 text-justify flex flex-col gap-4">
